@@ -40,3 +40,48 @@ form button:hover {
     background: #92a6b0;
     color: whitesmoke;
 }
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem;
+    background: white;
+    color: black;
+    font-size: .8rem;
+}
+
+.todo li {
+    flex: 1;
+}
+
+.rubbish-btn, .complete-btn {
+    background: rgb(255, 140, 0);
+    color: white;
+    border: none;
+    padding: .5rem;
+    cursor: pointer;
+    font-size: .8rem;
+}
+.complete-btn {
+    background: rgb(0, 165, 0);
+}
+
+.todo-item {
+    padding: 0rem, 0.5rem;
+}
+
+.fa-trash-can, .fa-check {
+    pointer-events: none;
+}
